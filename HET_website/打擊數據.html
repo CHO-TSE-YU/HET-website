@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <style type="text/css">
+            .jumbotron {
+              padding: 4rem 2rem;
+              margin-bottom: 2rem;
+              background-color: var(--bs-light);
+              border-radius: .3rem;  
+            }
+        </style>
+
+        <meta http-equiv="content-type" content="text/html; charset=utf-8">
+        <script src="https://kit.fontawesome.com/de7971910f.js" crossorigin="anonymous"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Darumadrop+One&display=swap" rel="stylesheet">
+        <title>打擊數據</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <header>
+            <div class = "container">
+                <nav class="navbar navbar-expand-lg bg-body-tertiary" >
+                    <div class="container-fluid">
+                    <a class="navbar-brand" href="HET網站.html">
+                        <img src = "pictures/HET.jpg">
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link" href="打擊數據.html">打擊數據</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                球員
+                                </a>
+                                <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">小馬</a></li>
+                                <li><a class="dropdown-item" href="#">小賴</a></li>
+                                <li><a class="dropdown-item" href="#">狗哥</a></li>
+                                <li><a class="dropdown-item" href="#">汁男</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">比賽影片</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">球隊資訊</a>
+                            </li>
+                        </ul>
+                    </div>
+                    </div>
+                </nav>
+            </div>
+        </header>
+        <section id = "data">   
+            <div class = "container">
+                <div class = "row">
+                    <div class='col-md-6'>
+                        <div class = "row">
+                            <div class='col-md-3'>
+                            <h4>打擊數據</h4>
+                            </div>
+                            <div class='col-md-3'>
+                                <div class="nav-item dropdown">
+                                    <h4 class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    年份
+                                    </h4>
+                                    <ul class="dropdown-menu">
+                                    <li><p class="dropdown-item" href="#">2023年</p></li>
+                                    <li><p class="dropdown-item" href="#">2022年</p></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class='col-md-12'>
+                </br>
+                    <table class="table table table-striped">
+                        <thead>
+                          <tr>
+                            <th scope="col">球員</th>
+                            <th scope="col">小馬</th>
+                            <th scope="col">小賴</th>
+                            <th scope="col">狗哥</th>
+                            <th scope="col">汁男</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <th scope="row">小馬</th>
+                            <td>Mark</td>
+                            <td>Otto</td>
+                            <td>@mdo</td>
+                          </tr>
+                          <tr>
+                            <th scope="row">小賴</th>
+                            <td>Jacob</td>
+                            <td>Thornton</td>
+                            <td>@fat</td>
+                          </tr>
+                          <tr>
+                            <th scope="row">狗哥</th>
+                            <td colspan="2">Larry the Bird</td>
+                            <td>@twitter</td>
+                          </tr>
+                          <tr>
+                            <th scope="row">汁男</th>
+                            <td>Jacob</td>
+                            <td>Thornton</td>
+                            <td>@fat</td>
+                          </tr>
+                        </tbody>
+                      </table>
+                </div>
+            </div>    
+        </section>
+        
+    </body>
+</html>
